@@ -1,0 +1,32 @@
+body{
+    background-color:bisque;
+}
+
+.branchheading{
+    color: blue;
+    font-size: 30px;
+}
+
+.branchsub{
+    color: brown;
+    font-size: 26px;
+}
+
+.branchlist{
+    font-size: 24px;
+}
+.spp{
+    background-color: rgb(228, 192, 216);
+    font-size: 35px;
+    text-align: center;
+    background-color: rgb(240, 167, 167);
+    padding-top: 50px;
+    justify-content: center;
+    padding-bottom: 50px;
+
+}
+.home{
+    color: black;
+    font-size: 30px;
+    margin-left: 1800px;
+}

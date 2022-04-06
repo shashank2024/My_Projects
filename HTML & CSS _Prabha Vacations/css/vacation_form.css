@@ -1,0 +1,106 @@
+body{
+    background-color:bisque;
+}
+
+.formmain{
+    color: blue;
+    margin-left: 875px;
+    font-size: 40px;
+    /* text-align: center; */
+}
+
+.formlorem{
+    color:crimson;
+    font-size: 24px;
+    text-align: justify;
+    border: 2px solid black;
+    border-radius: 10px;
+    /* text-align: center; */
+}
+
+
+.formsubheading{
+    text-transform: capitalize;
+    font-size: 24px;
+    text-align: center;
+}
+
+.formlist{
+    font-size: 20px;
+    text-align: center;
+}
+input{
+    font-size: 24px;   
+    margin: 10px;
+    text-align: center;
+    
+}
+
+option{
+    font-size:24px ;
+    text-align: center;
+}
+
+.formdata{
+    font-size: 20px;
+    text-align: center;
+}
+
+label{
+    font-size: 20px;
+    text-align: center;
+}
+
+textarea{
+    font-size: 30px;
+    text-align: center;
+}
+
+.formbutton{
+    color: blueviolet;
+    font-size: 24px;
+    margin-left: 970px;
+}
+
+select{
+    font-size: 24px;
+    text-align: center;
+}
+.spp{
+    background-color: rgb(228, 192, 216);
+    font-size: 35px;
+    text-align: center;
+    background-color: rgb(240, 167, 167);
+    padding-top: 50px;
+    justify-content: center;
+    padding-bottom: 50px;
+
+}
+#name{
+    margin-left: 875px;
+}
+#city{
+    margin-left: 875px;
+}
+#Address{
+    margin-left: 875px;
+}
+
+#destination{
+    margin-left: 875px;
+}
+#aeroplanea{
+    margin-left: 875px;
+}
+#aeroplanei{
+    margin-left: 875px;
+}
+#Explain{
+    margin-left: 775px;
+}
+#email{
+    margin-left:875px;
+}
+/* #submit{
+    margin-left:875px;
+} */

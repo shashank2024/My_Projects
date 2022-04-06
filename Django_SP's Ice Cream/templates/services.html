@@ -1,0 +1,52 @@
+{% extends 'base.html' %}
+{% load static %}
+
+{% block title %}Services{% endblock title %}
+
+{% block css_files %}
+<link rel="stylesheet" href="{% static "static/services.css" %}">
+{% endblock  %}
+
+{% block body %}
+<div class="container" >
+    <div class="card" style="services.css" >
+        <img src="/static/i1.jpg" class="card-img-top" alt="...">
+        <div class="card-body">
+          <h5 class="card-title">Vanilla</h5>
+          <p class="card-text">Yup, the well-loved chocolate ice cream does not even come close! Over 90% of Americans prefer vanilla over chocolate or any other flavor.</p>
+          <a href="#" class="btn btn-primary">Order Family Pack</a>
+        </div>
+      </div>
+</div>
+<div class="container">
+    <div class="card" style="services.css">
+        <img src="/static/i2.jpg" class="card-img-top" alt="...">
+        <div class="card-body">
+          <h5 class="card-title">Strawberry</h5>
+          <p class="card-text">Strawberry ice cream is pretty to look at and it’s so tasty! The combination of sweet and tart is just pure satisfaction.</p>
+          <a href="#" class="btn btn-primary">Order Family Pack</a>
+        </div>
+      </div>
+</div>
+<div class="container">
+    <div  style="services.css">
+        <img src="/static/i3.jpg" class="card-img-top" alt="...">
+        <div class="card-body">
+          <h5 class="card-title">Butter Pecan</h5>
+          <p class="card-text">Another classic and a personal favorite of mine is butter pecan. Who can say no to vanilla ice cream mixed with crisp pecans roasted in butter?</p>
+          <a href="#" class="btn btn-primary">Order Family Pack</a>
+        </div>
+      </div>
+</div>
+<div class="container">
+    <div class="card" style="services.css">
+        <img src="/static/i4.jpg" class="card-img-top" alt="...">
+        <div class="card-body">
+          <h5 class="card-title">Eskimo</h5>
+          <p class="card-text">Eskimo ice cream is an Alaskan flavor that’s made of whipped fat and berries, such as blueberries, cloudberries, and cranberries.</p>
+          <a href="#" class="btn btn-primary">Order Family Pack</a>
+        </div>
+      </div>
+</div>
+
+{% endblock body %}
